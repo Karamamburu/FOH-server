@@ -11,7 +11,6 @@ const generateRandomOrder = () => {
     
     order.push(randomMenuItem);
   }
-  console.log(order);
   return order;
 };
 

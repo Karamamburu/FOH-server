@@ -108,7 +108,7 @@ const MENU_ITEMS = [
     name: "Крылья 3",
     type: "box-chicken",
     size: "medium",
-    img: "wings3.png",
+    img: "wings_3.png",
     napkin: 2,
     wetNapkin: 1,
     blueStraw: 0,
