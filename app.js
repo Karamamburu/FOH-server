@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     const order = generateRandomOrder();
     res.writeHead(200, { 
       'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': 'http://localhost:5173',
+      'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET',
     });
     res.end(JSON.stringify(order));
@@ -18,5 +18,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://192.168.1.9:${PORT}`);
 });
